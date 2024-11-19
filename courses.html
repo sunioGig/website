@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hariom Yoga Ashram | Yoga & Meditation Classes in Pushkar-COURSES</title>
+        <meta name="description" content="Join Hariom Yoga Ashram in Pushkar for transformative yoga and meditation classes. Experience spirituality, inner peace, and self-discovery at this serene retreat.">
+        <meta name="keywords" content="Yoga,meditation, Meditation, YOGA IN PUSHKAR, yoga in pushkar,Hariom Ashram, Hariom Yoga, Yoga Pushkar, hariom yoga, Pushkar Yoga Ashram Stay, Spirituality, Pushkar, Hariom Yoga Ashram, meditation, self-discovery, cultural heritage, inner peace, BEST YOGA CLASSES IN PUSHKAR, Yoga ">
+        <meta property="og:title" content="Hariom Yoga Ashram | Hariom Yoga - Yoga and Meditation in Pushkar">
+        <meta property="og:description" content="Discover inner peace and self-discovery at Hariom Yoga Ashram in Pushkar, a serene space for authentic yoga and meditation experiences.">
+        <meta property="og:image" content="https://hariomyoga.org/images/P5.jpg">
+        <meta property="og:image:width" content="6000">
+        <meta property="og:image:height" content="4000">
+        <meta property="og:url" content="https://hariomyoga.org/index.html">
+        <meta name="twitter:card" content="summary_large_image">
+        <!-- Organization Schema -->
+        <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Hariom Yoga Ashram",
+            "url": "https://hariomyoga.org",
+            "logo": "https://hariomyoga.org/images/1.jpg"
+            }
+        </script>
+        <!-- WebPage Schema -->
+        <script type="application/ld+json">
+            {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Hariom Yoga Ashram - Gallery",
+            "description": "Welcome to Hariom Yoga Ashram Gallery Page, a place for spiritual growth and yoga practice.",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://hariomyoga.org/index.html"
+            },
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://hariomyoga.org/images/P5.jpg",
+                "width": 6000,
+                "height": 4000
+            },
+            "publisher": {
+                "@type": "Organization",
+                "name": "Hariom Yoga Ashram",
+                "logo": {
+                "@type": "ImageObject",
+                "url": "https://hariomyoga.org/images/1.jpg"
+                }
+            },
+            "datePublished": "2024-11-18",
+            "author": {
+                "@type": "Person",
+                "name": "Jaggu Ji"
+            },
+            "breadcrumb": {
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://hariomyoga.org/index.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "About",
+                    "item": "https://hariomyoga.org/about.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "Gallery",
+                    "item": "https://hariomyoga.org/gallery.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "name": "Courses",
+                    "item": "https://hariomyoga.org/courses.html"
+                }
+                ]
+            }
+            }
+        </script>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-LRS0MKR7NW"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-LRS0MKR7NW');
+        </script>
+        <link rel="stylesheet" href="animate.css">
+        <link rel="stylesheet" href="style.css">    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:wght@400;700&family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <style>
+            .courses-container {
+                padding: 2rem;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 2rem;
+                justify-content: center;
+                background: linear-gradient(135deg, #f5ebe0 0%, #e3d5ca 100%);
+                min-height: 100vh;
+                scroll-margin-top: 100px;
+            }
+
+            .course-card {
+                width: 380px;
+                padding: 2rem;
+                border-radius: 20px;
+                background: rgba(247, 245, 241, 0.85);
+                backdrop-filter: blur(10px);
+                border: 1px solid rgba(182, 166, 158, 0.3);
+                box-shadow: 0 8px 32px 0 rgba(108, 97, 87, 0.12);
+                position: relative;
+                overflow: hidden;
+            }
+
+            .course-card::before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 5px;
+                background: linear-gradient(90deg, #a78a7f, #8c7b75);
+            }
+
+            .course-title {
+                font-size: 1.6rem;
+                color: #695c57;
+                margin-bottom: 1.5rem;
+                font-weight: bold;
+                border-bottom: 2px solid #d5c4b9;
+                padding-bottom: 0.8rem;
+            }
+
+            .course-duration {
+                font-size: 0.9rem;
+                color: #947b70;
+                margin-bottom: 1rem;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .course-duration::before {
+                content: '⏱';
+                font-size: 1rem;
+            }
+
+            .course-list {
+                list-style-type: none;
+                padding: 0;
+                margin-bottom: 1.5rem;
+            }
+
+            .course-list.collapsed li:nth-child(n+5) {
+                display: none;
+            }
+
+            .course-list li {
+                margin-bottom: 0.8rem;
+                color: #695c57;
+                padding-left: 1.5rem;
+                position: relative;
+                line-height: 1.4;
+                transition: all 0.3s ease;
+            }
+
+            .course-list li::before {
+                content: "•";
+                position: absolute;
+                left: 0;
+                color: #a78a7f;
+                font-size: 1.2rem;
+            }
+
+            .show-more-text {
+                color: #947b70;
+                font-size: 0.9rem;
+                cursor: pointer;
+                display: inline-block;
+                margin-top: 0.5rem;
+                margin-bottom: 1rem;
+                position: relative;
+                padding-left: 0.5rem;
+            }
+
+            .show-more-text:hover {
+                color: #695c57;
+            }
+
+            .show-more-text::before {
+                content: '';
+                position: absolute;
+                bottom: -2px;
+                left: 0;
+                width: 100%;
+                height: 1px;
+                background: currentColor;
+                transform: scaleX(0.7);
+                transition: transform 0.3s ease;
+            }
+
+            .show-more-text:hover::before {
+                transform: scaleX(1);
+            }
+
+            .course-features {
+                background: rgba(213, 196, 185, 0.2);
+                padding: 1rem;
+                border-radius: 12px;
+                margin: 1rem 0;
+            }
+
+            .feature-item {
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                margin-bottom: 0.5rem;
+                color: #695c57;
+            }
+
+            .highlight {
+                font-weight: bold;
+                color: #947b70;
+                display: inline-block;
+                margin-right: 0.5rem;
+            }
+
+            .price-section {
+                margin: 1.5rem 0;
+                padding: 1rem;
+                border-radius: 12px;
+                background: rgba(167, 138, 127, 0.1);
+                text-align: center;
+            }
+
+            .price-tag {
+                font-size: 1.8rem;
+                color: #695c57;
+                font-weight: bold;
+                margin-bottom: 0.5rem;
+            }
+
+            .price-detail {
+                color: #947b70;
+                font-size: 0.9rem;
+                margin-bottom: 1rem;
+            }
+
+            .enroll-button {
+                width: 100%;
+                padding: 1rem;
+                background: linear-gradient(135deg, #a78a7f, #8c7b75);
+                color: #f7f5f1;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                font-weight: bold;
+                font-size: 1.1rem;
+                transition: all 0.3s ease;
+                border: 2px solid transparent;
+            }
+
+            .enroll-button:hover {
+                background: linear-gradient(135deg, #8c7b75, #a78a7f);
+                border-color: #a78a7f;
+            }
+
+            .additional-info {
+                margin-top: 1rem;
+                font-size: 0.9rem;
+                color: #695c57;
+                text-align: center;
+                font-style: italic;
+            }
+
+            .feature-icon {
+                width: 20px;
+                height: 20px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                background: #a78a7f;
+                color: #f7f5f1;
+                border-radius: 50%;
+                font-size: 0.8rem;
+                margin-right: 0.5rem;
+            }
+
+            @media (max-width: 768px) {
+                .course-card {
+                    width: 100%;
+                    max-width: 380px;
+                }
+            }
+            @keyframes heartbeat {
+                0% { transform: scale(1); }
+                14% { transform: scale(1.3); }
+                28% { transform: scale(1); }
+                42% { transform: scale(1.3); }
+                70% { transform: scale(1); }
+            }
+
+            .heartbeat {
+                animation: heartbeat 1.5s ease-in-out;
+            }
+            /* Developer Credit Styles */
+            .developer-credit {
+                margin-top: 0.8rem;
+                font-size: 0.9em;
+                color: #C4B29C;  /* Matches the footer's text color */
+                font-family: 'Cinzel', serif;  /* Matches the footer's font */
+            }
+
+            .developer-credit a {
+                color: #C4B29C;  /* Matches the social icons' default color */
+                text-decoration: none;
+                transition: color 0.3s, transform 0.3s;  /* Matches other transitions */
+                display: inline-block;
+                margin: 0 5px;
+            }
+
+            .developer-credit a:hover {
+                color: #FFF;  /* Matches other hover states */
+                transform: scale(1.2);  /* Matches social icons hover effect */
+            }
+
+            /* Responsive adjustment */
+            @media (max-width: 768px) {
+                .developer-credit {
+                    font-size: 0.8em;
+                }
+                .developer-credit a {
+                    transition: none;  /* Matches your mobile transition removal */
+                }
+            }
+        </style>
+        
+    </head>
+    <body>
+        <nav>
+            <a href="index.html">    
+                <img src="images/1.jpg" alt="logo">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="courses.html">COURSES</a></li>
+                    <li><a href="#whatsapp-link" class="whatsapp-link" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <main class="courses-container">
+            
+        
+            <div class="Courses-Details-course-7day course-card">
+                <h2 class="course-title">7-Day Yoga Retreat: "Revitalize & Reconnect"</h2>
+                <div class="course-duration">7 Days of Transformative Practice</div>
+                <ul class="course-list">
+                    <li>Daily Hatha Yoga and meditation sessions (2 sessions per day)</li>
+                    <li>Personalized pranayama exercises for energy enhancement</li>
+                    <li>Mindful reflection practices</li>
+                    <li>Evening group discussions</li>
+                </ul>
+                
+                <div class="course-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🍽</span>
+                        <div>
+                            <span class="highlight">Meals:</span>
+                            Fresh satvic meals (3 times daily)
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🏡</span>
+                        <div>
+                            <span class="highlight">Accommodation:</span>
+                            5 residential rooms available in peaceful ashram setting
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">👥</span>
+                        <div>
+                            <span class="highlight">Group Size:</span>
+                            Maximum 20 participants (10 residential + 10 program spots)
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="price-section">
+                    <div class="price-tag">€399/Person</div>
+                    <div class="price-detail">All-inclusive package</div>
+                </div>
+        
+                <button class="enroll-button">Enroll Now</button>
+                
+                <div class="additional-info">
+                    *Next batch starts first Monday of every month
+                </div>
+            </div>
+            <div class="Courses-Details-course-14day course-card">
+                <h2 class="course-title">14-Day Yoga Retreat: "Transform & Thrive"</h2>
+                <div class="course-duration">Journey to Self: A 14-Day Experience</div>
+                <ul class="course-list">
+                    <li>Daily Hatha Yoga and meditation sessions (2 sessions per day)</li>
+                    <li>Personalized pranayama exercises for energy enhancement</li>
+                    <li>Mindful reflection practices</li>
+                    <li>Evening group discussions</li>
+                    <li>Spiritual discourses on yogic philosophy</li>
+                    <li>Kirtan and chanting evenings to foster peace and unity</li>
+                    <li>Designated silent days for deep meditation and inner stillness</li>
+                    <li>Guided Pushkar city walk to explore temples, ghats, and local culture</li>
+                </ul>
+                
+                <div class="course-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🍽</span>
+                        <div>
+                            <span class="highlight">Meals:</span>
+                            Fresh satvic meals (3 times daily)
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🏡</span>
+                        <div>
+                            <span class="highlight">Accommodation:</span>
+                            5 residential rooms available in peaceful ashram setting
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">👥</span>
+                        <div>
+                            <span class="highlight">Group Size:</span>
+                            Maximum 20 participants (10 residential + 10 program spots)
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="price-section">
+                    <div class="price-tag">€699/Person</div>
+                    <div class="price-detail">All-inclusive package</div>
+                </div>
+        
+                <button class="enroll-button">Enroll Now</button>
+                
+                <div class="additional-info">
+                    *Next batch starts first Monday of every month
+                </div>
+            </div>
+            <div class="Courses-Details-course-21day course-card">
+                <h2 class="course-title">21-Day Retreat: "Awaken & Align"</h2>
+                <div class="course-duration">21 Days to Inner Transformation</div>
+                <ul class="course-list">
+                    <li>Daily Hatha Yoga and meditation sessions (2 sessions per day)</li>
+                    <li>Personalized pranayama exercises for energy enhancement</li>
+                    <li>Asana mastery workshops for refining and perfecting postures</li>
+                    <li>Kundalini awakening practices to explore spiritual energy.</li>
+                    <li>Shatkarma (cleansing practices) to purify the body and mind</li>
+                    <li>Kirtan and bhajan chanting sessions to elevate spirit and unity</li>
+                    <li>Ayurvedic lifestyle workshops for holistic wellness and vitality</li>
+                    <li>Seva (karma yoga) practice to nurture selflessness and compassion</li>
+                    <li>Trataka (candle gazing) for improved concentration and intuition</li>
+                    <li>Yoga philosophy classes on sacred texts and ancient practices</li>
+                    <li>Yoga nidra (guided relaxation) for deep rest and rejuvenation</li>
+                    <li>Experience a guided tour of Pushkar's holy sites</li>
+                </ul>
+                
+                <div class="course-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🍽</span>
+                        <div>
+                            <span class="highlight">Meals:</span>
+                            Fresh satvic meals (3 times daily)
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🏡</span>
+                        <div>
+                            <span class="highlight">Accommodation:</span>
+                            5 residential rooms available in peaceful ashram setting
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">👥</span>
+                        <div>
+                            <span class="highlight">Group Size:</span>
+                            Maximum 14 participants (10 residential + 4 program spots)
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="price-section">
+                    <div class="price-tag">€1100/Person</div>
+                    <div class="price-detail">All-inclusive package</div>
+                </div>
+        
+                <button class="enroll-button">Enroll Now</button>
+                
+                <div class="additional-info">
+                    *Next batch starts first Monday of every month
+                </div>
+            </div>
+            <div class="Courses-Details-course-Meditation course-card">
+                <h2 class="course-title">Meditation Retreat: "Inner Calm & Clarity"</h2>
+                <div class="course-duration">A Journey to Mindful Stillness and Peace</div>
+                <ul class="course-list">
+                    <li>Duration: 7/11 Days</li>
+                    <li>Guided Meditation and Short Yoga Sessions</li>
+                    <li>Group meditation at serene mountains for connection with nature</li>
+                    <li>Havan (Fire Ceremony): Traditional fire rituals for purification and spiritual cleansing</li>
+                    <li>Meditation at Sacred Sites</li>
+                    <li>Trataka (Candle Gazing): Practice for improving focus and inner stillness through meditative gazing</li>
+                    <li>Pranayama (Breath Control): Daily sessions to deepen the breath and calm the mind</li>
+                    <li>Body Scan & Yoga Nidra</li>
+                </ul>
+                
+                <div class="course-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🍽</span>
+                        <div>
+                            <span class="highlight">Meals:</span>
+                            Fresh satvic meals (3 times daily)
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🏡</span>
+                        <div>
+                            <span class="highlight">Accommodation:</span>
+                            5 residential rooms available in peaceful ashram setting
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">👥</span>
+                        <div>
+                            <span class="highlight">Group Size:</span>
+                            Maximum 12 participants (10 residential + 2 program spots)
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="price-section">
+                    <div class="price-tag">€45/Person/Day</div>
+                    <div class="price-detail">All-inclusive package</div>
+                </div>
+        
+                <button class="enroll-button">Enroll Now</button>
+                
+                <div class="additional-info">
+                    *Next batch starts first Monday of every month
+                </div>
+            </div>
+            <div class="Courses-Details-course-HathaYoga course-card">
+                <h2 class="course-title">Hatha Yoga Program: "Strength & Serenity"</h2>
+                <div class="course-duration">Aligning Body, Mind, and Spirit with Hatha Yoga</div>
+                <ul class="course-list">
+                    <li>Duration: Daily Sessions or 15 Days Retreat</li>
+                    <li>Sessions focused on core strength, flexibility, and alignment</li>
+                    <li>Progressive sequences to develop endurance and muscular strength</li>
+                    <li>Daily meditation to cultivate calm and mental clarity</li>
+                    <li>Insights into the principles of Hatha Yoga and its benefits</li>
+                    <li>Daily breathwork techniques to enhance focus and energy</li>
+                    <li>Trataka (Candle Gazing): Practice for concentration</li>
+                </ul>
+                
+                <div class="course-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🍽</span>
+                        <div>
+                            <span class="highlight">Meals:</span>
+                            Fresh satvic meals (3 times daily)
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🏡</span>
+                        <div>
+                            <span class="highlight">Accommodation:</span>
+                            5 residential rooms available in peaceful ashram setting
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">👥</span>
+                        <div>
+                            <span class="highlight">Group Size:</span>
+                            Maximum 20 participants (10 residential + 10 program spots)
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="price-section">
+                    <div class="price-tag">€49/Person/Day</div>
+                    <div class="price-detail">All-inclusive package</div>
+                </div>
+        
+                <button class="enroll-button">Enroll Now</button>
+                
+                <div class="additional-info">
+                    *Next batch starts first Monday of every month
+                </div>
+            </div>
+            <div class="Courses-Details-course-Shatkarma course-card">
+                <h2 class="course-title">Shatkarma: "Purification & Clarity"</h2>
+                <div class="course-duration">8 Days of Deep Purification</div>
+                <ul class="course-list">
+                    <li>Introduction to Purification Practices</li>
+                    <li>Jala Neti (Nasal Cleansing) for Breath and Clarity</li>
+                    <li>Kapalabhati for Energy Renewal</li>
+                    <li>Trataka (Candle Gazing) for Concentration and Focus</li>
+                    <li>Dhauti (Internal Cleansing) for Inner Clarity</li>
+                    <li>Agnisara Kriya (Fire Activation) for Vitality</li>
+                    <li>Full Cleansing Practice for Body and Mind</li>
+                </ul>
+                
+                <div class="course-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🍽</span>
+                        <div>
+                            <span class="highlight">Meals:</span>
+                            Light, detoxifying satvic meals to support cleansing and clarity
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🏡</span>
+                        <div>
+                            <span class="highlight">Accommodation:</span>
+                            5 residential rooms available in peaceful ashram setting
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">👥</span>
+                        <div>
+                            <span class="highlight">Group Size:</span>
+                            Maximum 8 participants 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="price-section">
+                    <div class="price-tag">€399</div>
+                    <div class="price-detail">All-inclusive package</div>
+                </div>
+        
+                <button class="enroll-button">Enroll Now</button>
+                
+                <div class="additional-info">
+                    *Next batch starts first Monday of every month
+                </div>
+            </div>
+            <div class="Courses-Details-course-Spiritual-Discourse course-card">
+                <h2 class="course-title">Spiritual Discourses and Philosophy: "Wisdom & Insight"</h2>
+                <div class="course-duration">Exploring Ancient Wisdom for Modern Living</div>
+                <ul class="course-list">
+                    <li>Duration: 5 days</li>
+                    <li>Foundations of Yogic Philosophy</li>
+                    <li>Exploring the Bhagavad Gita</li>
+                    <li>The Yoga Sutras of Patanjali</li>
+                    <li>Karma and Dharma: Purpose and Action</li>
+                    <li>Integrating Wisdom into Daily Life</li>
+                </ul>
+                
+                <div class="course-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🍽</span>
+                        <div>
+                            <span class="highlight">Meals:</span>
+                            Fresh satvic meals (3 times daily)
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🏡</span>
+                        <div>
+                            <span class="highlight">Accommodation:</span>
+                            5 residential rooms available in peaceful ashram setting
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">👥</span>
+                        <div>
+                            <span class="highlight">Group Size:</span>
+                            Maximum 12 participants 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="price-section">
+                    <div class="price-tag">€199</div>
+                    <div class="price-detail">All-inclusive package</div>
+                </div>
+        
+                <button class="enroll-button">Enroll Now</button>
+                
+                <div class="additional-info">
+                    *Next batch starts first Monday of every month
+                </div>
+            </div>
+            <div class="Courses-Details-course-Online course-card">
+                <h2 class="course-title">Online Personal Classes: "Your Practice, Your Pace"</h2>
+                <div class="course-duration">Guided Growth, Anytime, Anywhere</div>
+                <ul class="course-list">
+                    <li>Daily 1 Hour Online Class</li>
+                    <li>Sunday: Kirtan and Spiritual Discourse</li>
+                    <li>Foundation and Goal Setting</li>
+                    <li>Building Strength and Flexibility</li>
+                    <li>Deepening Meditation and Breathwork</li>
+                    <li>Integration and Reflection</li>
+                </ul>
+                
+                <div class="course-features">
+                    <div class="feature-item">
+                        <span class="feature-icon">🍽</span>
+                        <div>
+                            <span class="highlight">Meals:</span>
+                            N/A(ONLINE MODE)
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🏡</span>
+                        <div>
+                            <span class="highlight">Accommodation:</span>
+                            N/A(ONLINE MODE)
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">👥</span>
+                        <div>
+                            <span class="highlight">Group Size:</span>
+                            NO LIMIT
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="price-section">
+                    <div class="price-tag">€99/month</div>
+                    <div class="price-detail">All-inclusive package</div>
+                </div>
+        
+                <button class="enroll-button">Enroll Now</button>
+                
+                <div class="additional-info">
+                    *Enroll Anytime
+                </div>
+            </div>
+        
+            
+        </main>
+        <footer class="footer">
+            <div class="footer-content">
+                <!-- Recent Events -->
+                <div class="footer-recent">
+                    <h3>Featured Practices</h3>
+                    <ul>
+                        <li>
+                            <span class="event-date">1</span>
+                            <p>Meditation for Inner Peace</p>
+                        </li>
+                        <li>
+                            <span class="event-date">2</span>
+                            <p>Traditional Yoga</p>
+                        </li>
+                        <li>
+                            <span class="event-date">3</span>
+                            <p>Mindful Pranayama (yogic breathing) Techniques</p>
+                        </li>
+                    </ul>
+                    <a href="#whatsapp-link" id="KnowMoreLink" class="know-more-btn" target="_blank" rel="noopener noreferrer">Enroll Now</a>
+                </div>
+      
+                <!-- FAQ Section -->
+                <div class="footer-faq">
+                    <h3>Frequently Asked Questions</h3>
+                    <details>
+                        <summary>Do you offer beginner classes?</summary>
+                        <p>Yes, we have classes for all levels, including beginners.</p>
+                    </details>
+                    <details>
+                        <summary>Do I need to register in advance to visit?</summary>
+                        <p>Day visits don’t require registration, but overnight stays and special events may require prior registration.</p>
+                    </details>
+                    <details>
+                      <summary>Do I need to be flexible to start yoga?</summary>
+                      <p>No, flexibility will improve over time with regular practice. Yoga is for everyone!</p>
+                    </details>
+                    <details>
+                      <summary>How long is a typical yoga class?</summary>
+                      <p>Most classes are around 45-60 minutes long.</p>
+                    </details>
+                    <details>
+                      <summary>Do I have to bring my own yoga mat?</summary>
+                      <p>No, we have yoga mats available for use.</p>
+                    </details>
+                    <details>
+                      <summary>Is there a fee for visiting the ashram?</summary>
+                      <p>Day visits are free, but donations are appreciated. Fees may apply for certain classes, events, or accommodations.</p>
+                    </details>
+                </div>
+      
+                <!-- About Section -->
+                <div class="footer-about">
+                    <h3>About Us</h3>
+                    <p>We are a spiritual community focused on yoga, mindfulness, and holistic wellness. 
+                    Join us to experience inner peace and harmony.</p>
+                    <p>
+                        <i class="fa-solid fa-envelope icon-foot"></i>
+                        Email: yogahariompushkar@gmail.com
+      
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-location-dot icon-foot"></i>
+                        Address: Village Nedliya, Dang, Old Pushkar, Pushkar, Rajastán 305022, India
+                    </p>
+                </div>
+            </div>
+      
+            <!-- Social Media Links -->
+            <div class="footer-social">
+                <h3>Connect With Us</h3>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/hariomyogashram/" target="_blank" rel="noopener noreferrer" aria-label="Visit our Facebook page">
+                        <i class="fa-brands fa-facebook fa-lg"></i>
+                    </a>
+                    <a href="https://www.instagram.com/yogiji_jaggu?igsh=aTZzM3hjODNhNzJs" target="_blank" rel="noopener noreferrer" aria-label="Visit our Instagram page">
+                        <i class="fa-brands fa-instagram fa-lg"></i>
+                    </a>
+                    <a href="#whatsapp-link" class="whatsapp-link" target="_blank" rel="noopener noreferrer" aria-label="Contact us on WhatsApp">
+                        <i class="fa-brands fa-whatsapp fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+      
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p>&copy; <script>document.write(new Date().getFullYear())</script> Hariom Yoga Ashram, Pushkar. All rights reserved.</p>
+                <p class="developer-credit">
+                    Designed & Developed by HARSH • 
+                    <a href="mailto:vermaharsh.crg@gmail.com" aria-label="Contact the developer">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </p>
+            </div>
+        </footer>
+    
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Initialize all course lists
+                document.querySelectorAll('.course-list').forEach(list => {
+                    // Only add show more if there are more than 4 items
+                    if (list.children.length > 4) {
+                        // Add collapsed class initially
+                        list.classList.add('collapsed');
+                        
+                        // Create show more text element
+                        const showMoreText = document.createElement('div');
+                        showMoreText.className = 'show-more-text';
+                        showMoreText.textContent = 'Show More';
+                        
+                        // Insert after the list
+                        list.parentNode.insertBefore(showMoreText, list.nextSibling);
+                        
+                        // Add click handler
+                        showMoreText.addEventListener('click', function() {
+                            list.classList.toggle('collapsed');
+                            this.textContent = list.classList.contains('collapsed') ? 'Show More' : 'Show Less';
+                        });
+                    }
+                });
+            });
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                // Check if we have a target course from the URL
+                const urlParams = new URLSearchParams(window.location.search);
+                const targetCourse = urlParams.get('course');
+            
+                if (targetCourse) {
+                    const courseElement = document.querySelector('.' + targetCourse);
+                    if (courseElement) {
+                        // Scroll to the element
+                        courseElement.scrollIntoView({ behavior: 'smooth' });
+            
+                        // Add heartbeat animation class
+                        courseElement.classList.add('heartbeat');
+            
+                        // Remove the animation class after it completes
+                        courseElement.addEventListener('animationend', function() {
+                            this.classList.remove('heartbeat');
+                        });
+                    }
+                }
+            
+                // Add click event listeners to all contact buttons
+                const contactButtons = document.querySelectorAll('.contact-button');
+                contactButtons.forEach(button => {
+                    button.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        const targetCourse = this.getAttribute('data-course-target');
+                        window.location.href = 'courses.html?course=' + targetCourse;
+                    });
+                });
+            });
+        </script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const phoneNumber = '+919828462347';
+                const courseMessages = {
+                    'Revitalize & Reconnect': 'Hello! I\'m interested in enrolling for the 7-Day Yoga Retreat: "Revitalize & Reconnect". Could you please provide more details?',
+                    'Transform & Thrive': 'Hi! I\'d like to join the 14-Day Yoga Retreat: "Transform & Thrive". Please share the enrollment details.',
+                    'Awaken & Align': 'Hello! I\'m looking to enroll in the 21-Day Retreat: "Awaken & Align". Could you guide me through the process?',
+                    'Inner Calm & Clarity': 'Hi! I\'m interested in the Meditation Retreat: "Inner Calm & Clarity". Please provide more information.',
+                    'Strength & Serenity': 'Hello! I want to join the Hatha Yoga Program: "Strength & Serenity". Could you share the details?',
+                    'Purification & Clarity': 'Hi! I\'d like to enroll in the Shatkarma: "Purification & Clarity" program. Please provide more information.',
+                    'Wisdom & Insight': 'Hello! I\'m interested in joining the Spiritual Discourses program: "Wisdom & Insight". Could you share more details?',
+                    'Your Practice, Your Pace': 'Hi! I\'d like to start the Online Personal Classes: "Your Practice, Your Pace". Please guide me through the enrollment process.'
+                };
+
+                function redirectToWhatsApp(message) {
+                    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+                    window.open(url, '_blank');
+                }
+
+                document.querySelectorAll('.course-card').forEach(card => {
+                    const enrollButton = card.querySelector('.enroll-button');
+                    const courseTitle = card.querySelector('.course-title').textContent;
+                    const courseName = Object.keys(courseMessages).find(key => courseTitle.includes(key));
+
+                    if (enrollButton && courseName) {
+                        enrollButton.addEventListener('click', (e) => {
+                            e.preventDefault();
+                            redirectToWhatsApp(courseMessages[courseName]);
+                        });
+                    }
+                });
+            });
+        </script>
+        <script src="script.js"></script>
+
+
+    </body>
+
+</html>
